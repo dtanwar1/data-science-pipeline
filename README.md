@@ -33,6 +33,10 @@ The advent of the Internet has given rise to a number of important innovations t
     cd data_generation_scripts
     nohup {script_name}  -  script names start with t for toxicity calculations , s for subjectivity     calculations and for toxicity configuration we can limit the of tweets being analysed and form which date to not to over head the toxicity api endpoint, can be chaged using the top most variables in the script
 
+## System Architecture
+
+![System Architecture](./kekology_arch.png)
+
 ## Database schema - NoSQL
 
 ```bash
